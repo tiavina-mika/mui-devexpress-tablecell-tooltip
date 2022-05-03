@@ -78,7 +78,8 @@ const HeaderRowCell = (componentProps) => {
         forwardedRef={innerRef}
         style={{
           backgroundColor: componentProps.color || "#000",
-          color: "#fff"
+          color: "#fff",
+          borderRight: "0.5px solid #E0E0E0"
         }}
       />
     );
