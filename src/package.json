@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@devexpress/dx-react-core": "3.0.2",
+    "@devexpress/dx-react-grid": "3.0.2",
+    "@devexpress/dx-react-grid-material-ui": "3.0.2",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "5.6.2",
+    "@mui/material": "latest",
+    "@mui/styles": "5.6.2",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "description": "https://github.com/mui/material-ui/blob/v5.6.4/docs/data/material/components/slider/MinimumDistanceSlider.js",
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "name": "MinimumDistanceSlider Material Demo",
+  "title": "MinimumDistanceSlider Material Demo"
+}
