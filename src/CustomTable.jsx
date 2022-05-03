@@ -77,7 +77,7 @@ const HeaderRowCell = (componentProps) => {
         {...props}
         forwardedRef={innerRef}
         style={{
-          backgroundColor: componentProps.color,
+          backgroundColor: componentProps.color || "#000",
           color: "#fff"
         }}
       />
@@ -96,11 +96,7 @@ const CustomTable = () => {
       <Grid rows={rows} columns={columns}>
         <FilteringState />
         <Table />
-        <TableHeaderRow
-          cellComponent={(props) =>
-            HeaderRowCell({ color: "#151515", ...props })
-          }
-        />
+        <TableHeaderRow cellComponent={HeaderRowCell} />
         <TableFilterRow rowComponent={rowComponent} />
       </Grid>
     </Paper>
